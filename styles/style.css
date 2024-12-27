@@ -1,0 +1,118 @@
+
+
+:root {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    background-color: #0b0b0b;
+    min-height: 200vh;
+    height: fit-content;
+    width: 1vw;
+    position: relative;
+}
+
+p, h3, h1, h2 {
+    font-family: "Pixelify Sans", sans-serif;
+    /*font-optical-sizing: auto;*/
+    font-weight: 400;
+    font-style: normal;
+    color: #f386b3;
+}
+.when {
+    right:200px;
+    position: absolute;
+
+}
+.when p{
+    color: #ffffff;
+    
+}
+.what-is-this {
+    background-color: #006eff;
+    display: flex;
+    position: absolute;
+    width: fit-content;
+    left: 20vw;
+    max-width: 200px;
+
+}
+.what-is-this p, .what-is-this h2 {
+    color: yellow;
+    width: max-content;
+    
+}
+.title {
+    width: 100vw;
+    position: relative;
+    display: block;
+    text-align: center;
+}
+main {
+    position: relative;
+    height: fit-content;
+    width: 100vw;
+    left: 0;
+}
+img {
+    position: absolute;
+}
+#cat_smile {
+    width: auto;
+    left: 40px;
+    height: 100px;
+}
+#kebab_djur {
+    width: auto;
+    height: 200px;
+    left: 300px;
+    top: 350px;
+}
+#floating_part {
+    position: absolute;
+    height: auto;
+    width: 300px;
+    left: 1200px;
+    top: 500px;
+}
+@keyframes swim {
+    0% {left: 55%; rotate: 0deg;}
+    50% {left:  45%; rotate: 180deg;}
+    100% {left: 55%; rotate: 360deg;}
+}
+#tutel {
+    position: absolute;
+    height: auto;
+    width: 50px;
+    animation: infinite;
+    animation-timing-function: linear;
+    animation-name: swim;
+    animation-duration: 4s;
+    top: 0px;
+    
+}
+#dune_book {
+    position: absolute;
+    height: auto;
+    width: 200px;
+    right: 80px;
+    top: 800px;
+
+}
+
+credits {
+    position: absolute;
+    
+    
+    width: 100vw;
+    
+    bottom: 0;
+    text-align: center;
+}
+credits p, credits a, credits h3 {
+    color: yellow;
+    text-decoration: none;
+    width: 100%;
+}
